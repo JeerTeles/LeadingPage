@@ -1,0 +1,99 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+header{
+    background-image: url(../img/Background\ Gradient\ \(1\).png);
+    width: 100vw;
+    height: 605px;
+}
+
+img#imagemCabecalho{
+    background-image: linear-gradient(385deg, #31a9ddaf 50%, #00000079 50%);
+    width: 100vw;
+    height: 500px;
+}
+
+img#cssdevolper{
+    position: absolute;
+    width: 248px;
+    height: 214px;
+    left: 245px;
+    top: 10px; 
+}
+
+img#titulo{
+    position: absolute;
+    right: 100px;
+    bottom: 470px;
+}
+
+p#subTitulo{
+    position: absolute;
+    right: 84px;
+    bottom: 390px;
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-size: 20px;
+    line-height: 23px;
+}
+
+a#inscrever{
+    background-image: linear-gradient(#00000079, #31a9ddaf );
+    position: absolute;
+    display: block;
+    color: black;
+    font-family: 'Raleway';
+    text-align: center;
+    text-decoration: none;
+    right: 202px;
+    bottom: 370px;
+    width: 290px;
+    height: 25px;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: blue;
+    color: white;
+}
+
+hr{
+    width: 100vw;
+    border: 2px solid #31a9ddaf;
+    margin: 0;
+}
+
+hr{
+    position: absolute;
+    top: 500px;
+}
+
+div#aprender{
+    position: absolute;
+    background-image: linear-gradient(385deg, #31a9ddaf 20%, #00000079 88%);
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    width: 100vw;
+    height: auto;
+    top: 501px; 
+}
+
+div#aprender h1{
+    font-family: 'Raleway';
+    color: #31a9ddd3;
+    text-align: center;
+}
