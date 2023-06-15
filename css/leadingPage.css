@@ -97,3 +97,55 @@ div#aprender h1{
     color: #31a9ddd3;
     text-align: center;
 }
+
+.circle{
+    width: 55vw;
+    height: 35px;
+    right: 50px;
+    margin: 7px auto;
+    padding-top: 5px;
+    background-color: rgba(128, 128, 128, 0.736);
+    border: 2px solid #16526cd3 ;
+}
+
+span{
+    color: #31a9ddeb;
+    font-family: 'Raleway';
+}
+
+#transform-world { /* Efeito parallax */
+    height: 50px;
+    background-size: cover;
+    background-image: url("../img/machine-learning.jpeg");
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+    padding: 200px;
+  }
+
+#encare{
+    position: absolute;
+    background: black;
+    width: 100vw;
+    height: auto;
+}
+
+img#textEvo{
+    position: absolute;
+    top: 110px;
+    left: 100px;
+}
+
+img#homemPc{
+    position: relative;
+    left: 397px;
+}
+
+footer{
+    position: relative;
+    background: black;
+}
+
+a#inst{
+    text-decoration: none;
+}
